@@ -6,7 +6,7 @@ import '../page.css'
 import MyInput from "../../../app/component/myinput"
 
 import Mybutton from "../../component/Mybutton"
-const signup=()=>{
+const Signup=()=>{
   //
   const [number,setNumber]=useState('')
   const [pass1,setPass1]=useState('')
@@ -55,4 +55,4 @@ const signup=()=>{
   )
 
 } 
-export default signup
+export default Signup

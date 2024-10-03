@@ -1,7 +1,7 @@
 'use client'
 import NavBar from "../../component/nav"
 import '../../../app/globals.css'
-const signup=()=>{
+const Setting=()=>{
 
     return(
        
@@ -15,4 +15,4 @@ const signup=()=>{
   )
 
 } 
-export default signup
+export default Setting

@@ -2,7 +2,7 @@
 import NavBar from "../../component/nav"
 import '../../../app/globals.css'
 import '../page.css'
-const signup=()=>{
+const About=()=>{
 
     return(
        
@@ -30,4 +30,4 @@ const signup=()=>{
   )
 
 } 
-export default signup
+export default About

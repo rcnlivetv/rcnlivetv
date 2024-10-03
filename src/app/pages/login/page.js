@@ -6,7 +6,7 @@ import '../page.css'
 import MyInput from "../../../app/component/myinput"
 import Mybutton from "../../../app/component/Mybutton"
 
-const login=()=>{
+const Login=()=>{
   //
   const [number,setNumber]=useState('')
   const [pass1,setPass1]=useState('')
@@ -53,4 +53,4 @@ const login=()=>{
   )
 
 } 
-export default login
+export default Login
