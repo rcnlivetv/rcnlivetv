@@ -1,10 +1,11 @@
 'use client'
+import { useState } from "react"
 import NavBar from "../../component/nav"
 import '../../../app/globals.css'
 import '../page.css'
 import MyInput from "../../../app/component/myinput"
 import Mybutton from "../../../app/component/Mybutton"
-import { useState } from "react"
+
 const login=()=>{
   //
   const [number,setNumber]=useState('')

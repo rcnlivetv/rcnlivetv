@@ -1,9 +1,10 @@
 'use client'
+import { useState } from "react"
 import NavBar from "../../component/nav"
 import '../../../app/globals.css'
 import '../page.css'
 import MyInput from "../../../app/component/myinput"
-import { useState } from "react"
+
 import Mybutton from "../../component/Mybutton"
 const signup=()=>{
   //
