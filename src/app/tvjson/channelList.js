@@ -3,7 +3,7 @@ const channelsDatas=[
         id:1,
         title:'live',
         category:'RCN live',logoUrl:'https://png.pngtree.com/png-clipart/20220211/ourmid/pngtree-3d-modern-live-streaming-png-image_4382808.png',
-        liveUrl:'https://toffee.iptvbd.xyz/player.html?channel_id=sony_ten2_hd'
+        liveUrl:'http://125.209.88.166:45793/BRN/TenSports.stream/playlist.m3u8'
       },
       {
         id:1,
@@ -37,7 +37,7 @@ const channelsDatas=[
         id:1,
         title:'',
         category:'RCN live',logoUrl:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhYMt_u83Swqsm1NGK_gThDQgDPqUi8K7YFg&s',
-        liveUrl:'https://toffee.iptvbd.xyz/player.html?channel_id=sony_ten2_hd'
+        liveUrl:'http://125.209.88.166:45793/BRN/TenSports.stream/playlist.m3u8'
       },
       {
         id:1,
