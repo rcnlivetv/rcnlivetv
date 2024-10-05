@@ -39,7 +39,6 @@ html,body{width: 100%;margin:0px;
     box-sizing: border-box;
 }
 .tv-container{
-    
     display:flex;
     justify-content: space-around;
     flex-wrap: nowrap;
@@ -108,8 +107,7 @@ h1{
 @media only screen and (max-width:400px) {
 
     .tv-view{
-        
-        max-height: 260px;
+        max-height: 240px;
     }
 
 }
