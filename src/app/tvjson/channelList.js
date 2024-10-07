@@ -3,7 +3,7 @@ const channelsDatas=[
         id:1,
         title:'live',
         category:'RCN live',logoUrl:'https://png.pngtree.com/png-clipart/20220211/ourmid/pngtree-3d-modern-live-streaming-png-image_4382808.png',
-        liveUrl:'http://125.209.88.166:45793/BRN/TenSports.stream/playlist.m3u8'
+        liveUrl:'https://bdiptv24.com/BDIX/tsfile.php'
       },
       {
         id:1,
