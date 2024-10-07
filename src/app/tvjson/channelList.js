@@ -3,7 +3,7 @@ const channelsDatas=[
         id:1,
         title:'live',
         category:'RCN live',logoUrl:'https://png.pngtree.com/png-clipart/20220211/ourmid/pngtree-3d-modern-live-streaming-png-image_4382808.png',
-        liveUrl:'https://allinoneott.com/live/player.php?url=https%3A%2F%2Flive-cdn.tsports.com%2Flive-02%2Findex.m3u8'
+        liveUrl:'https://bdiptv24.com/BDIX/tsfile.php'
       },
       {
         id:1,
