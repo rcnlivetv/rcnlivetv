@@ -11,7 +11,11 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-       <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
+       <head>
+         <meta httpEquiv="Content-Security-Policy" content={csp} />
+         <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
+
+       </head>
        <body className={inter.className}>{children}</body>
     </html>
   );
