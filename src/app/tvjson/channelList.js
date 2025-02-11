@@ -3,7 +3,7 @@ const channelsDatas=[
         id:1,
         title:'live',
         category:'RCN live',logoUrl:'https://png.pngtree.com/png-clipart/20220211/ourmid/pngtree-3d-modern-live-streaming-png-image_4382808.png',
-        liveUrl:'http://172.20.2.5:8082/T-SPORTS/tracks-v1a1/mono.m3u8'
+        liveUrl:'http://172.20.2.5/we/play.php?stream=SONY-TEN-2'
       },
       {
         id:1,
