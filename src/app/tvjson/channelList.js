@@ -2,8 +2,9 @@ const channelsDatas=[
       {
         id:1,
         title:'live',
-        category:'RCN live',logoUrl:'https://png.pngtree.com/png-clipart/20220211/ourmid/pngtree-3d-modern-live-streaming-png-image_4382808.png',
-        liveUrl:'https://bldcmprod-cdn.toffeelive.com/cdn/live/cartoon_network_sd/playlist.m3u8'
+        category:'RCN live',
+        logoUrl:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBAY79s7ORXoJSLNAs2Yp0wMA9tn_bHCfG1Q&s',
+        liveUrl:'http://38.96.178.201/live/TSports/index.m3u8'
       },
       {
         id:1,
