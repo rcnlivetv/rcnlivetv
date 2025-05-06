@@ -5,7 +5,7 @@ import NavBar from "./component/nav";
 import MySlider from "./component/MySlider";
 import NextPlyr from "./component/videoPlayer/nextPlyr";
 import IFrame from "./component/videoPlayer/iframe";
-export default function appPage() {
+export default function AppPage() {
     const [liveUrl,setLiveUrl]=useState('')
    
      console.log('url:'+liveUrl)
