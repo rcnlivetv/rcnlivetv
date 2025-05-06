@@ -1,7 +1,7 @@
 'use client'
 import {useEffect,useState } from "react";
 import { subscribeUser, unsubscribeUser, sendNotification } from './actions'
-import Page from './MainPage'
+import AppPage from './MainPage'
 //import { headers } from 'next/headers'
  
 //export default async function Page() {
@@ -141,7 +141,7 @@ export default function Home() {
 //  const userAgent = headersList.get('user-agent')
   return (
     <div>
-      <Page/>
+      <AppPage/>
     </div>
   );
 }
