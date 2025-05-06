@@ -2,6 +2,12 @@
 import {useEffect,useState } from "react";
 import { subscribeUser, unsubscribeUser, sendNotification } from './actions'
 import Page from './MainPage'
+import { headers } from 'next/headers'
+ 
+export default async function Page() {
+  const headersList = await headers()
+  const userAgent = headersList.get('user-agent')
+}
  
 function urlBase64ToUint8Array(base64String) {
   const padding = '='.repeat((4 - (base64String.length % 4)) % 4)
