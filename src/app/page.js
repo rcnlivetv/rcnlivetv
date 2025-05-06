@@ -1,13 +1,12 @@
 'use client'
 import {useEffect,useState } from "react";
 import { subscribeUser, unsubscribeUser, sendNotification } from './actions'
-import Page from './MainPage'
+import appPage from './MainPage'
 import { headers } from 'next/headers'
  
-export default async function Page() {
-  const headersList = await headers()
-  const userAgent = headersList.get('user-agent')
-}
+//export default async function Page() {
+
+//}
  
 function urlBase64ToUint8Array(base64String) {
   const padding = '='.repeat((4 - (base64String.length % 4)) % 4)
@@ -138,6 +137,8 @@ function InstallPrompt() {
 }
  
 export default function Home() {
+  const headersList = await headers()
+  const userAgent = headersList.get('user-agent')
   return (
     <div>
       <Page/>
