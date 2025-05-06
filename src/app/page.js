@@ -1,7 +1,7 @@
 'use client'
 import {useEffect,useState } from "react";
 import { subscribeUser, unsubscribeUser, sendNotification } from './actions'
-import appPage from './MainPage'
+import Page from './MainPage'
 //import { headers } from 'next/headers'
  
 //export default async function Page() {
