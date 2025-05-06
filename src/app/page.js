@@ -136,7 +136,7 @@ function InstallPrompt() {
   );
 }
  
-export default function Home() {
+export default async function Home() {
   const headersList = await headers()
   const userAgent = headersList.get('user-agent')
   return (
