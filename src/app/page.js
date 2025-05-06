@@ -1,8 +1,8 @@
-//'use client'
+'use client'
 import {useEffect,useState } from "react";
 import { subscribeUser, unsubscribeUser, sendNotification } from './actions'
 import AppPage from './MainPage'
-import { headers } from 'next/headers'
+
  
 //export default async function Page() {
 
@@ -136,9 +136,7 @@ function InstallPrompt() {
   );
 }
  
-export default async function Home() {
-  const headersList = await headers()
-  const userAgent = headersList.get('user-agent')
+export default function Home() {
   return (
     <div>
       <AppPage/>
