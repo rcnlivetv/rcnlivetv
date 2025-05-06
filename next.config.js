@@ -1,12 +1,12 @@
 
 
 /** @type {import('next').NextConfig} */
-
+/**
 const nextConfig = {
   eslint: {
       ignoreDuringBuilds: true,
   },
-/* ...Your other config rules */
+/*
 async headers() {
   return [
     {
@@ -45,6 +45,7 @@ async headers() {
     },
   ]
 },
+*/
 const cspHeader = `
     default-src 'self';
     script-src 'self' 'unsafe-eval' 'unsafe-inline';
